@@ -34,6 +34,42 @@ scrollTopBtn.addEventListener('click', () => {
     });
 });
 
+  
+  const bottone = document.getElementById('bottoneCollaps');
+  const sezione = document.getElementById('offerteDellaSettimana');
+  
+
+ 
+  bottone.addEventListener('click', function() {
+    
+    if (sezione.style.display === 'none' || sezione.style.display === '') {
+     
+      sezione.style.display = 'block';
+    } else {
+     
+      sezione.style.display = 'none';
+    }
+  });
+
+
+
+  const bottone2= document.getElementById('botton2');
+  const sezioneWelcomeSummer = document.getElementById('welcomeSummer1');
+  
+
+ 
+  bottone2.addEventListener('click', function() {
+    
+    if (sezioneWelcomeSummer.style.display === 'none' || sezioneWelcomeSummer.style.display === '') {
+     
+        sezioneWelcomeSummer.style.display = 'block';
+    } else {
+     
+        sezioneWelcomeSummer.style.display = 'none';
+    }
+  });
+
+
 
 
 
