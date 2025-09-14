@@ -1,0 +1,27 @@
+.logo img{
+    width: 100px;
+}
+.maldive img{
+    width: 100%;
+   
+}
+
+.pippo{
+       background-image: url(../assets/ws.webp); 
+      width: 210px;
+      height: 400px;
+       background-size: cover;
+    }
+    .pippo2{
+        background-image: url(../assets/zanzibar.jpg); 
+      width: 210px;
+      height: 400px;
+       background-size: cover;
+
+    }
+    .sharm img{
+        width: 100%;
+
+    }
+
+       
