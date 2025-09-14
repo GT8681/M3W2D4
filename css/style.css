@@ -1,5 +1,5 @@
 .logo img{
-    width: 100px;
+    width: 130px;
 }
 .maldive img{
     width: 100%;
@@ -23,4 +23,24 @@
   .sharm img{
     width: 100%;
   }
-       
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #61da29;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
